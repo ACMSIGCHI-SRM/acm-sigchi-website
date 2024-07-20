@@ -13,8 +13,8 @@ export default function Navbar() {
     ]
 
     return (
-        <div className="w-full h-14 flex bg-inherit items-center">
-            <Image src={logo} alt="Logo" className="ml-5" width={60} height={60} />
+        <div className="w-full h-20 flex bg-inherit items-center">
+            <Image src={logo} alt="Logo" className="lg:ml-10 ml-5 " width={60} height={60} />
             <div className="lg:w-[60%] gap-3 md:w-[80%] sm:w-full ml-auto mr-auto flex flex-row justify-evenly">
                 {links.map(link => (
                     <Link href={link.path} key={link.id} className="font-semibold lg:text-xl md:text-lg text-xs">
