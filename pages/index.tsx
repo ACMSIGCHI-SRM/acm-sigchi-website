@@ -1,3 +1,4 @@
+import MembershipCard from "@/components/MembershipCard";
 import Navbar from "@/components/Navbar";
 import { Inter } from "next/font/google";
 
@@ -10,6 +11,7 @@ export default function Home() {
     >
       <Navbar />
       <h1 className="text-4xl font-bold">ACM Sigchi</h1>
+      <MembershipCard />
     </main>
   );
 }
