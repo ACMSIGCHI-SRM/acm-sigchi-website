@@ -49,7 +49,7 @@ export default function TeamSection() {
   return (
     <div className="w-full h-fit flex flex-col items-center">
       <h1 className="font-bold text-4xl text-white">Our Team</h1>
-      <div className="mt-10 w-[90%] h-fit flex flex-wrap justify-center gap-6">
+      <div className="w-[90%] h-fit flex flex-wrap justify-center gap-6">
         {testMembers.map((member, index) => (
           <Member
             key={index}
