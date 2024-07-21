@@ -6,7 +6,7 @@ export default function IntroSection() {
             <div className="w-1/2 flex justify-center items-center">
                 <Image src="/logo.svg" alt="Hero" width={500} height={500} />
             </div>
-            <div className="w-1/2 flex flex-col items-center">
+            <div className="w-1/2 flex flex-col items-center gap-3">
                 <h1 className="w-[75%] font-bold lg:text-6xl md:text-5xl text-4xl text-[#EAA137]">ACM Sigchi</h1>
                 <p className="w-[75%] font-semibold xl:text-xl lg:text-lg md:text-md sm:text-sm text-xs">
                     Understanding humanity embracing technology.
