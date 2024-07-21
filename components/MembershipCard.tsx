@@ -8,7 +8,7 @@ export default function MembershipCard() {
             <div className="p-8 pb-2 text-xl text-black">
             ACM offers the resources, access and tools to invent the future. No one has a larger global network of professional peers. No one has more exclusive content. No one presents more forward-looking events. Or confers more prestigious awards. Or provides a more comprehensive learning center. 
             </div>
-            <Link href={'https://www.google.com'}>
+            <Link href={'https://www.acm.org/membership/join'}>
             <div className="justify-start flex p-8">
                 <button className="h-fit bg-[#5080C6] text-white p-2 rounded-md">Click here to get paid membership</button>
             </div>
