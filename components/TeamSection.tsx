@@ -38,7 +38,7 @@ export default function TeamSection() {
       linkedinUrl: "https://linkedin.com",
     },
     {
-      name: "Charlie Doe",
+      name: "Vinay Rajan",
       role: "Webmaster",
       imgUrl: "/images/charlie-doe.jpg",
       githubUrl: "https://github.com",
@@ -47,17 +47,20 @@ export default function TeamSection() {
   ];
 
   return (
-    <div className="w-[90%] h-fit grid grid-cols-4 gap-4">
-      {testMembers.map((member, index) => (
-        <Member
-          key={index}
-          name={member.name}
-          role={member.role}
-          imgUrl={member.imgUrl}
-          githubUrl={member.githubUrl}
-          linkedinUrl={member.linkedinUrl}
-        />
-      ))}
+    <div className="w-full h-fit flex flex-col items-center">
+      <h1 className="font-bold text-4xl text-white">Our Team</h1>
+      <div className="mt-10 w-[90%] h-fit flex flex-wrap justify-center gap-6">
+        {testMembers.map((member, index) => (
+          <Member
+            key={index}
+            name={member.name}
+            role={member.role}
+            imgUrl={member.imgUrl}
+            githubUrl={member.githubUrl}
+            linkedinUrl={member.linkedinUrl}
+          />
+        ))}
+      </div>
     </div>
   );
 }

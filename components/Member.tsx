@@ -12,37 +12,30 @@ export default function Member(props: {
   linkedinUrl: string;
 }) {
   return (
-    <div className="border p-2">
-      <Image
-        src={logo}
-        alt={props.name}
-        className="w-full h-auto border"
-        width={60}
-        height={60}
-      />
+    <div className="flex items-center flex-col p-2 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 h-fit">
+      <Image src={logo} alt={props.name} className="w-2/3 h-auto" />
       <div className="flex mt-3 items-center flex-col">
-        <h2 className="font-semibold">{props.name}</h2>
-        <p>{props.role}</p>
-        <div className="flex mt-2 flex-row bg-inherit gap-3">
-          <a target="_blank" href={props.githubUrl}>
-            {" "}
+        <h2 className="font-semibold text-lg sm:text-lg md:text-md lg:text-lg xl:text-xl text-center">
+          {props.name}
+        </h2>
+        <p className="text-md sm:text-md md:text-base lg:text-md xl:text-sm text-center">
+          {props.role}
+        </p>
+        <div className="flex mt-2 flex-row bg-inherit gap-5">
+          <Link target="_blank" href={props.githubUrl}>
             <Image
               src={github}
               alt="github"
-              width={30}
-              height={30}
-              className="rounded-full"
+              className="rounded-full w-4 h-4 sm:w-6 sm:h-6 md:w-8 md:h-8 lg:w-10 lg:h-10"
             />
-          </a>
-          <a target="_blank" href={props.linkedinUrl}>
+          </Link>
+          <Link target="_blank" href={props.linkedinUrl}>
             <Image
               src={linkedin}
               alt="linkedin"
-              width={30}
-              height={30}
-              className="rounded-full"
+              className="rounded-full w-4 h-4 sm:w-6 sm:h-6 md:w-8 md:h-8 lg:w-10 lg:h-10"
             />
-          </a>
+          </Link>
         </div>
       </div>
     </div>
