@@ -1,4 +1,5 @@
 import AboutSection from "@/components/AboutSection";
+import DomainsSection from "@/components/DomainsSection";
 import IntroSection from "@/components/IntroSection";
 import MembershipCard from "@/components/MembershipCard";
 import Navbar from "@/components/Navbar";
@@ -28,6 +29,9 @@ export default function Home() {
         </div>
         <div id="about" className="mt-28 p-5 w-full h-fit flex justify-center">
           <AboutSection />
+        </div>
+        <div id="about" className="mt-28 p-5 w-full h-fit flex justify-center">
+          <DomainsSection />
         </div>
         <div
           id="team"
