@@ -3,35 +3,35 @@ import Member from "./Member";
 export default function TeamSection() {
   const testMembers = [
     {
-      name: "John Doe",
+      name: "Krishna",
       role: "President",
       imgUrl: "/images/john-doe.jpg",
-      githubUrl: "https://github.com",
-      linkedinUrl: "https://linkedin.com",
+      githubUrl: "https://github.com/krishnamuttevi",
+      linkedinUrl: "https://www.linkedin.com/in/krishna-chaitanya-muttevi-713311272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ",
     },
     {
-      name: "Jane Doe",
+      name: "Inigo Jeevan",
       role: "Vice President",
       imgUrl: "/images/jane-doe.jpg",
-      githubUrl: "https://github.com",
-      linkedinUrl: "https://linkedin.com",
+      githubUrl: "https://github.com/Inigojeevan",
+      linkedinUrl: "https://www.linkedin.com/in/inigo-jeevan-253a0b24b/",
     },
     {
-      name: "Alice Doe",
+      name: "Abhisesha",
       role: "Treasurer",
       imgUrl: "/images/alice-doe.jpg",
       githubUrl: "https://github.com",
       linkedinUrl: "https://linkedin.com",
     },
     {
-      name: "Bob Doe",
+      name: "Rishi",
       role: "Secretary",
       imgUrl: "/images/bob-doe.jpg",
-      githubUrl: "https://github.com",
-      linkedinUrl: "https://linkedin.com",
+      githubUrl: "https://github.com/risv1",
+      linkedinUrl: "https://www.linkedin.com/in/rishiviswanathan16/",
     },
     {
-      name: "Eve Doe",
+      name: "Pranuthi",
       role: "Event Coordinator",
       imgUrl: "/images/eve-doe.jpg",
       githubUrl: "https://github.com",
@@ -41,8 +41,8 @@ export default function TeamSection() {
       name: "Vinay Rajan",
       role: "Webmaster",
       imgUrl: "/images/charlie-doe.jpg",
-      githubUrl: "https://github.com",
-      linkedinUrl: "https://linkedin.com",
+      githubUrl: "https://github.com/vinay-04",
+      linkedinUrl: "https://www.linkedin.com/in/vinayrajans/",
     },
   ];
 
