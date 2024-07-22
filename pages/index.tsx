@@ -46,7 +46,7 @@ export default function Home() {
         >
           <MembershipCard />
         </div>
-        <div id="footer" className="mt-28 w-full h-fit flex justify-center">
+        <div id="footer" className="mt-28 h-fit flex justify-center">
         <Footer />
       </div>
       </main>
