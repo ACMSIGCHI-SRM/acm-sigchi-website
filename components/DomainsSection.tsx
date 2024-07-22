@@ -17,7 +17,7 @@ export default function DomainsSection() {
               domain.reverse ? "flex-row-reverse" : ""
             }`}
           >
-            <div className="w-1/2 flex flex-col gap-4">
+            <div className="xl:w-1/2 lg:w-1/2 md:w-1/2 w-full flex flex-col gap-4">
             <h1 className="font-bold text-3xl text-[#EAA137]">{domain.name}</h1>
               <p className="w-[85%] font-normal xl:text-xl lg:text-lg md:text-md sm:text-sm text-xs">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -27,7 +27,7 @@ export default function DomainsSection() {
                 Learn more
               </button>
             </div>
-            <div className="w-1/2 flex items-center justify-center">
+            <div className="w-1/2 xl:flex lg:flex md:flex hidden items-center justify-center">
               <Image src="/logo.svg" alt="About Us" width={700} height={700} />
             </div>
           </div>

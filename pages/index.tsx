@@ -31,7 +31,7 @@ export default function Home() {
         <div id="about" className="mt-28 p-5 w-full h-fit flex justify-center">
           <AboutSection />
         </div>
-        <div id="about" className="mt-28 p-5 w-full h-fit flex justify-center">
+        <div id="domain" className="mt-28 p-5 w-full h-fit flex justify-center">
           <DomainsSection />
         </div>
         <div
@@ -46,7 +46,7 @@ export default function Home() {
         >
           <MembershipCard />
         </div>
-        <div id="footer" className="mt-28 w-full h-fit flex justify-center">
+        <div id="contact" className="mt-28 h-fit flex justify-center">
         <Footer />
       </div>
       </main>
