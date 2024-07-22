@@ -1,4 +1,5 @@
 import AboutSection from "@/components/AboutSection";
+import Footer from "@/components/Footer";
 import IntroSection from "@/components/IntroSection";
 import MembershipCard from "@/components/MembershipCard";
 import Navbar from "@/components/Navbar";
@@ -24,6 +25,9 @@ export default function Home() {
       </div>
       <div id="memberships" className="mt-28 p-5 w-full h-fit flex justify-center">
         <MembershipCard />
+      </div>
+      <div id="footer" className="mt-28 w-full h-fit flex justify-center">
+        <Footer />
       </div>
     </main>
   );
